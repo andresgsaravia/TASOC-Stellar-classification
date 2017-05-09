@@ -1,0 +1,7 @@
+# Exclude raw data
+data/raw/*
+data/intermediate/*
+notebooks/.ipynb_checkpoints/*
+
+# But preserve the folder for reproducibility
+!data/raw/.gitkeep
